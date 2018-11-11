@@ -1,5 +1,6 @@
 # ExpectedValue
-Calculate the expected value of a fair die
+Calculate the expected value of a fair die.
+Should approach (1 + 2 + 3 + 4 + 5 + 6) / 6 = 3.5
 
 # Output
 
