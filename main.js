@@ -9,6 +9,17 @@ const calcExpectedValue = () => {
     return avg / numThrows;
 }
 
+const calcExpectedValue2 = () => {
+    const numThrows = 100000;
+    let avg = 0;
+    for (let i = 0; i < numThrows; i++) {
+        const result1 = throwDie();
+        const result2 = throwDie();
+        avg += Math.max(result1, result2);
+    }
+    return avg / numThrows;
+}
+
 for (let i = 0; i < 5; i++) {
-    console.log(calcExpectedValue());
+    console.log(calcExpectedValue2());
 }
