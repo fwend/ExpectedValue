@@ -24,7 +24,7 @@ for (let i = 0; i < 5; i++) {
 
 console.log("\n");
 
-console.log("Expected value for two rolls");
+console.log("Expected value for two rolls (and keeping the highest)");
 for (let i = 0; i < 5; i++) {
     console.log(calcExpectedValue(2));
 }
