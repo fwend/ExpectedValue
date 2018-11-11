@@ -20,6 +20,14 @@ const calcExpectedValue2 = () => {
     return avg / numThrows;
 }
 
+console.log("Expected value for one roll");
+for (let i = 0; i < 5; i++) {
+    console.log(calcExpectedValue());
+}
+
+console.log();
+
+console.log("Expected value for two rolls");
 for (let i = 0; i < 5; i++) {
     console.log(calcExpectedValue2());
 }
