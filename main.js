@@ -1,4 +1,4 @@
-const throwDie = () => Math.floor((Math.random() * 6) + 1)
+const throwDie = () => Math.floor((Math.random() * 6) + 1);
 
 const calcExpectedValue = () => {
     const numThrows = 100000;
@@ -9,7 +9,7 @@ const calcExpectedValue = () => {
     }
 
     return avg / numThrows;
-}
+};
 
 const calcExpectedValue2 = () => {
     const numThrows = 100000;
