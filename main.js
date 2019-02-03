@@ -26,6 +26,12 @@ const calcExpectedValue2 = () => {
     return avg / numThrows;
 }
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 3; i++) {
     console.log(calcExpectedValue());
+}
+
+console.log('-----');
+
+for (let i = 0; i < 3; i++) {
+    console.log(calcExpectedValue2());
 }
